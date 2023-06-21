@@ -1,6 +1,8 @@
 # What_I_Read
 WhatIRead helps with creating your personal database of the websites that you read using your local browser on PC. 
 
+This is different from regular history your browser keeps track of. You will want only those that are of interest to you for use in future.
+
 # Why this
 I want to keep track of all the articles I read daily. At any point of time, I wanted to build my own DB of articles that I read by importing them in to Obsidian (My second brain). 
 There are no specific tools that I was able to find. Created this for the same reason. 
