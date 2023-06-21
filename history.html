@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" type="text/css" href="pikaday.css">
+     <link rel="stylesheet" type="text/css" href="history.css">
+     <script src="pikaday.js"></script>
+  </head>
+<body>
+  <h1>Article History</h1>
+  <ul id="articles"></ul>
+  <input type="text" id="dateFilter">
+  <button id="export">Export</button>
+
+  <label for="dateFilter">Filter by date:</label>
+  <input type="date" id="dateFilter">
+  <button onclick="filterArticles()">Filter</button>
+  <button onclick="exportArticles()">Export</button>
+
+  <table id="articlesTable"></table>
+
+  <script src="history.js"></script>
+</body>
+</html>
